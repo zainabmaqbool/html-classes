@@ -1,0 +1,25 @@
+body{
+    height: 95vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 10px;
+    color: rgb(21, 18, 23);
+    font-size: 2em;
+}
+header{
+    background: rgb(65, 106, 142);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2em;
+}
+main{
+    background: rgb(54, 77, 97);
+    text-align: center;
+    padding: 2em;
+}
+footer{
+    background: rgb(65, 106, 142);
+    text-align: center;
+    padding: 2em;
+}

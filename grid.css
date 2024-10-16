@@ -1,0 +1,19 @@
+body{
+    margin: 20px;
+}
+.box{
+    background-color: rgb(191, 173, 146);
+    color: #000 ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 150%;
+}
+/*yahn parent decide karega k child ko kya krna or kya size dena*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px) ;
+    grid-auto-rows: minmax(150px , auto) ;
+    grid-gap: 10px;
+    background-color: aqua;
+}

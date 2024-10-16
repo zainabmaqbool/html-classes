@@ -1,0 +1,31 @@
+.flex-container{
+    /*to display the data in the form of row*/
+    display: flex;
+    background-color: rgb(179, 248, 248);
+    height: 100vh;
+    border: 4px solid black;
+    justify-content: start;/*rows*/
+    align-items: baseline;
+    flex-flow: row wrap;
+    /*instead of write flex-direction and flex wrap we can write flex flow it will do the same work as this*/
+    gap: 2px;/*using gap instead of padding and margin*/
+}
+.box{
+    color: #3d0a0a;
+    border: 2px solid pink;
+    /*padding: 10px;
+    margin: 10px;*/
+}
+.box4{
+    color: rgb(72, 60, 45);
+    background-color: aquamarine;
+    align-self: center;/*with align self we can assign the property to a child element*/
+}
+.box7{
+    color: rgb(72, 60, 45);
+    background-color: rgb(226, 195, 233);
+}
+.box1{
+    color: rgb(18, 20, 19);
+    background-color: rgb(147, 195, 156);
+}
