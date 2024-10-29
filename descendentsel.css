@@ -1,0 +1,16 @@
+/* descendent selector 
+#blog h1{
+    color: blue;
+}
+child selector 
+#blog > h1{
+    color: blue;
+}
+general sibling selecttor
+h1~p{
+    color: blue;
+}
+adjacent sibling
+h1 + p{
+    color: blue;
+}*/
